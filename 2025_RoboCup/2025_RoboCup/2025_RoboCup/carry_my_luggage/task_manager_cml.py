@@ -16,7 +16,7 @@
 
 # rclpy (ROS 2のpythonクライアント)の機能を使えるようにします。
 import rclpy
-# rclpy (ROS 2のpythonクライアント)の機能のうちNodeを簡単に使えるようにします。こう書いていない場合、Nodeではなくrclpy.node.Nodeと書く必要があります。
+# rclpy 
 from rclpy.node import Node
 
 # ROS 2の文字列型を使えるようにimport
