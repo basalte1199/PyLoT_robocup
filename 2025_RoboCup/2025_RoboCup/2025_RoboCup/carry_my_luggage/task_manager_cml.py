@@ -23,7 +23,7 @@ from rclpy.node import Node
 from std_msgs.msg import String
 
 # C++と同じく、Node型を継承します。
-class MinimalPublisher(Node):
+class TaskManagerCML(Node):
     # コンストラクタです、MinimulPublisherクラスのインスタンスを作成する際に呼び出されます。
     def __init__(self):
         # 継承元のクラスを初期化します。（https://www.python-izm.com/advanced/class_extend/）今回の場合継承するクラスはNodeになります。
